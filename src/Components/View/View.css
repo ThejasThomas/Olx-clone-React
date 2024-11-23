@@ -1,0 +1,122 @@
+.viewParentDiv {
+  padding-top: 4em;
+  display: flex;
+  justify-content: center; /* Center content */
+  align-items: flex-start; /* Align items at the top */
+}
+
+.viewParentDiv .imageShowDiv {
+  padding: 16px;
+  width: 70vw;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Add shadow */
+  border-radius: 10px; /* Rounded corners */
+  overflow: hidden; /* Prevent overflow */
+}
+
+.viewParentDiv .imageShowDiv img {
+  width: 100%; /* Full width */
+  height: 680px; /* Maintain aspect ratio */
+  border-radius: 10px; /* Rounded corners */
+}
+
+.viewParentDiv .rightSection {
+  padding: 16px;
+  margin-top: 3em;
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Spacing between sections */
+}
+
+.viewParentDiv .rightSection .productDetails {
+  border: 1px solid #ddd; /* Lighter border */
+  padding: 20px;
+  border-radius: 6px;
+  background-color: #f9f9f9; /* Light background */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.viewParentDiv .rightSection .productDetails .price {
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #28a745; /* Green color for price */
+  font-size: 34px;
+}
+
+.viewParentDiv .rightSection .productDetails .productName {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333; /* Darker text */
+}
+
+.viewParentDiv .rightSection .productDetails .category {
+  color: #555; /* Grey color */
+}
+
+.viewParentDiv .rightSection .productDetails .createdDate {
+  color: #888; /* Lighter grey for date */
+  font-style: italic; /* Italic style */
+}
+
+.viewParentDiv .rightSection .contactDetails {
+  border: 1px solid #ddd; /* Lighter border */
+  padding: 20px;
+  border-radius: 6px;
+  background-color: #f9f9f9; /* Light background */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.viewParentDiv .rightSection .contactDetails .sellerTitle {
+  font-size: 20px;
+  font-weight: 700;
+  color: #002f34; /* Dark color */
+}
+
+.viewParentDiv .rightSection .contactDetails .sellerEmail,
+.viewParentDiv .rightSection .contactDetails .sellerPhone {
+  color: #333; /* Darker text */
+}
+
+/* Loading state style */
+.loading {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #002f34; /* Dark color */
+  padding: 20px;
+}
+.loginPrompt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.loginMessageBox {
+  text-align: center;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.loginMessageBox h2 {
+  margin: 0 0 10px 0;
+}
+
+.loginButton {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.loginButton:hover {
+  background-color: #0056b3;
+}
+
